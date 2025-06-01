@@ -47,8 +47,8 @@ The project explored two primary approaches for intelligent LLM routing:
 | Metric | LLM Router | DistilBERT Router | Simple GPT-4.1 |
 |--------|------------|-------------------|-----------------|
 | Accuracy | 90% | 90% | 80% |
-| Avg Latency | 0.231s | Variable | 0.689s |
-| Cost | Very Low | Minimal | Medium |
+| Avg Latency | 0.231s | 1.5s | 0.689s |
+| Cost | Low | Very Low | Medium |
 | Model Usage | Balanced | 80% o4-mini preference | Fixed |
 
 ### Key Insights
