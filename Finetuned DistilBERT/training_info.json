@@ -1,0 +1,9 @@
+{
+  "model_type": "distilbert",
+  "task": "classification",
+  "num_labels": 3,
+  "training_steps": 1224,
+  "learning_rate": 2e-05,
+  "batch_size": 16,
+  "epochs": 3
+}
