@@ -334,7 +334,7 @@ async def route_with_file(
 
     api_key = get_api_key(openai_api_key, x_openai_api_key)
     
-    if file.size > 20 * 1024 * 1024:
+    if file.size > 2 * 1024 * 1024:
         raise HTTPException(status_code=400, 
                             detail="File size must be less than 2MB")
     

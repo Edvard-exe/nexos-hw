@@ -12,7 +12,7 @@ import os
 
 class TestRouteLLM(unittest.TestCase):
     
-    def set_up(self) -> None:
+    def setUp(self) -> None:
         """
         Set up the test environment
         """
@@ -84,7 +84,7 @@ class TestRouteLLM(unittest.TestCase):
 
 class TestAsyncRouteLLM(unittest.IsolatedAsyncioTestCase):
     
-    def set_up(self) -> None:
+    def setUp(self) -> None:
         """
         Set up the test environment
         """
@@ -170,7 +170,7 @@ class TestGetApiKey(unittest.TestCase):
 
 class TestAPIEndpoints(unittest.TestCase):
     
-    def set_up(self) -> None:
+    def setUp(self) -> None:
         """
         Set up the test environment
         """
